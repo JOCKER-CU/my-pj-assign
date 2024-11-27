@@ -1,0 +1,174 @@
+.login-card {
+    box-shadow: none;
+    background-color: hsl(0, 0%, 100%);
+
+
+}
+
+.input-form {
+    border: none;
+}
+
+
+.custom-input {
+    color: #B2B7BE;
+    padding-left: 10px;
+    border: 1px;
+    box-shadow: none;
+    background-color: #F5F7F9;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.text-danger {
+    color: red;
+}
+
+
+
+
+.input-group {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: bolder;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-subtitle {
+    height: 20px;
+    margin-bottom: 40px;
+    color: #B2B7BE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.icon {
+    display: inline;
+    width: 24px;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 5px;
+
+}
+
+.title-img {
+    width: 100%;
+    height: 300px;
+
+
+
+}
+
+.image-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: #B2B7BE solid;
+    border-radius: 0.5rem;
+    width: 10rem;
+    font-size: 18px;
+
+
+}
+
+
+
+.card-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.submit {
+    background-color: #FF8036;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    width: 103%;
+    height: 55px;
+    font-size: 18px;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo h3 {
+    font-size: 30px;
+    font: bold;
+}
+
+.e-cart {
+    display: inline;
+    width: 24px;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #FF8036;
+}
+
+
+
+.forget {
+    display: block;
+    background-color: #fff;
+    color: #B2B7BE;
+    border: none;
+    margin-left: auto;
+    float: right;
+    padding-bottom: 4px;
+}
+
+
+.card-footer {
+    border: none;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    align-items: center;
+    color: #B2B7BE;
+    justify-content: center;
+}
+
+.card-footer a {
+    color: #FF8036;
+    font-size: 15px;
+}

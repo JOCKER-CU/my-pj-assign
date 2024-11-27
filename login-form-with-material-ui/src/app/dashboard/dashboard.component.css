@@ -1,0 +1,18 @@
+.custom-input {
+    color: #B2B7BE;
+    width: 93%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1em;
+    box-shadow: none;
+    background-color: #F5F7F9;
+}
+
+
+.dash-component {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}

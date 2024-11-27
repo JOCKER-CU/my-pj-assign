@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "email": "hannaungsoe2@gmail.com",
+      "date": "2019-01-01",
+      "status": "active",
+      "password": "Password1",
+      "id": "1"
+    },
+    {
+      "email": "hannaungsoe2@gmail.com",
+      "date": "2019-01-01",
+      "status": "active",
+      "password": "Password1",
+      "id": "c054"
+    },
+    {
+      "id": "84dc",
+      "email": "hannaungsoe2@gmail.com",
+      "date": "2010-01-01",
+      "status": "active",
+      "password": "dfadsfads"
+    },
+    {
+      "id": "661b",
+      "email": "hannaungsoe2@gmail.com",
+      "date": "2020-01-01",
+      "status": "active",
+      "password": "Password1"
+    }
+  ]
+}

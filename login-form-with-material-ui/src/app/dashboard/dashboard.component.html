@@ -1,0 +1,65 @@
+<div class="dash-component">
+    <div class="login-container">
+        <div class="login-left">
+            <h2>Simplify <br> management with <br> our dashboard.</h2>
+            <p>Simplify your e-commerce management with our user-friendly admin dashboard.</p>
+            <img src="images/undraw_happy_new_year_di92.svg" class="title-img" alt="" />
+        </div>
+        <div class="login-right">
+            <div class="logo">
+                <img src="images/undraw_shopping_app_flsj.svg" class="e-cart" alt="">
+                <h3>E-Spurt</h3>
+            </div>
+            <mat-card class="login-card">
+                <mat-card-header class="header">
+                    <mat-card-title class="card-title">Welcome Back</mat-card-title>
+                    <mat-card-subtitle class="card-subtitle">Please login to your account</mat-card-subtitle>
+                </mat-card-header>
+                <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+                    <div class="input-group">
+                        <input type="email" formControlName="email" placeholder="Email" class="custom-input">
+                        <div class="text-danger error"
+                            *ngIf="userForm.get('email')?.invalid && userForm.get('email')?.touched">
+                            Valid Email is required!
+                        </div>
+                    </div>
+
+                    <input type="password" formControlName="password" placeholder="Password" class="custom-input">
+
+                    <div class="text-danger"
+                        *ngIf="userForm.get('password')?.invalid && userForm.get('password')?.touched">
+                        Valid Password is required
+                    </div>
+
+                    <div class="btn-container">
+                        <div (click)="forgetPassword()" class="forget">Forget password?</div>
+
+                        <button type="submit" class="submit" [disabled]="userForm.invalid">Login</button>
+                    </div>
+
+                    <div class="divider">
+                        <div class="line"></div>
+                        <p>Or Login with</p>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="card-actions">
+
+                        <button type="button" class="image-icon"><img src="images/google-color-icon.svg" class="icon"
+                                alt="" />
+                            <span>Google</span></button>
+                        <button type="button" class="image-icon"><img src="images/facebook-round-color-icon.svg"
+                                class="icon" alt="" />
+                            <span>Facebook</span> </button>
+                    </div>
+                    <div class="card-footer">
+                        <p>Don't have an account? <a href="#">Signup</a></p>
+                    </div>
+                </form>
+
+            </mat-card>
+
+        </div>
+    </div>
+</div>
